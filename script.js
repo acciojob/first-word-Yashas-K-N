@@ -1,9 +1,9 @@
 function firstWord(s) {
   // your code here
 	let r = '';
-    if( s[i] !== '')
+    
 		
-	for(i=0; i=s.length; i++){
+	for(let i=0; i=s.length; i++){
 		 if( s[i] !== ''){
 		  r += s[i];
 		 }
