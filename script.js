@@ -1,4 +1,4 @@
-function firstWord(s) {
+function r(s) {
   // your code here
 	let r = '';
     
