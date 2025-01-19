@@ -4,8 +4,8 @@ function r(s) {
     
 		
 	for(let i of s){
-		 if(s[i] !== ' '){
-		  result += s[i];
+		 if(s !== ' '){
+		  result += s;
 		 }
 		else{
 			break;
