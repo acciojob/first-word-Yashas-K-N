@@ -4,12 +4,12 @@ function firstWord(s) {
 	for(i of s){
 		r += s;
 		}
-	if( r == ''){
+	if( s[i] == ''){
 		break
 	}
-
+  return r
 }
-let res = r;
+let res = firstword(s);
 console.log(res);
 
 // Do not change the code below
