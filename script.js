@@ -1,11 +1,11 @@
 function r(s) {
   // your code here
-	let r = '';
+	let result = '';
     
 		
 	for(let i=0; i<s.length; i++){
 		 if( s[i] !== ''){
-		  r += s[i];
+		  result += s[i];
 		 }
 		else{
 			break;
@@ -14,7 +14,7 @@ function r(s) {
     }
 	
 	
-  return r
+  return result;
 }
 let res = r(s);
 console.log(res);
