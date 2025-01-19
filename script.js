@@ -1,10 +1,10 @@
 function firstWord(s) {
   // your code here
 	let r = '';
-	for(i of s){
+	for(i=0; i=s.length; i++){
 		r += s;
 		}
-	if( s == ''){
+	if( s[i] == ''){
 		break;
 	}
   return r
