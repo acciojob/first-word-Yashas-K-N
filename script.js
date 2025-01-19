@@ -1,12 +1,19 @@
 function firstWord(s) {
   // your code here
 	let r = '';
+    if( s[i] !== '')
+		
 	for(i=0; i=s.length; i++){
-		r += s[i];
+		 if( s[i] !== ''){
+		  r += s[i];
+		 }
+		else{
+			break;
 		}
-	if( s[i] == ''){
-		break;
-	}
+		return r;
+    }
+	
+	
   return r
 }
 let res = firstword(s);
