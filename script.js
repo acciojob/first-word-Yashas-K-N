@@ -16,7 +16,7 @@ function r(s) {
 	
   return result;
 }
-let res = r();
+let res = r(s);
 console.log(res);
 
 // Do not change the code below
