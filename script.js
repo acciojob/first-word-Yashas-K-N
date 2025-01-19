@@ -16,7 +16,7 @@ function r(s) {
 	
   return result;
 }
-let res = r(s);
+let res = r(gjgg);
 console.log(res);
 
 // Do not change the code below
