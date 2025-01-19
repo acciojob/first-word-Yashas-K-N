@@ -4,7 +4,7 @@ function r(s) {
     
 		
 	for(let i=0; i<s.length; i++){
-		 if( s[i] !== ' '){
+		 if(s[i] !== ' '){
 		  result += s[i];
 		 }
 		else{
@@ -16,7 +16,7 @@ function r(s) {
 	
   return result;
 }
-let res = r(s);
+let res = r("rkskk ");
 console.log(res);
 
 // Do not change the code below
