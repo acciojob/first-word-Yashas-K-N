@@ -2,7 +2,7 @@ function firstWord(s) {
   // your code here
 	let r = '';
 	for(i=0; i=s.length; i++){
-		r += s;
+		r += s[i];
 		}
 	if( s[i] == ''){
 		break;
