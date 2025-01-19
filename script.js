@@ -3,9 +3,9 @@ function r(s) {
 	let result = '';
     
 		
-	for(let i of s){
-		 if(s !== ' '){
-		  result += s;
+	for(let i in s){
+		 if(s[i] !== ' '){
+		  result += s[i];
 		 }
 		else{
 			break;
