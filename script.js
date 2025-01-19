@@ -10,13 +10,13 @@ function firstWord(s) {
 		else{
 			break;
 		}
-		return r;
+		
     }
 	
 	
   return r
 }
-let res = firstword(s);
+let res = r(s);
 console.log(res);
 
 // Do not change the code below
