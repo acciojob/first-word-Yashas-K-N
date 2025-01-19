@@ -4,8 +4,8 @@ function firstWord(s) {
 	for(i of s){
 		r += s;
 		}
-	if( s[i] == ''){
-		break
+	if( s == ''){
+		break;
 	}
   return r
 }
